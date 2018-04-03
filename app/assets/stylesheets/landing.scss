@@ -1,0 +1,334 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+// $brand_color: #F0B27A;
+
+
+// body {
+// 	margin: 0;
+// }
+
+
+
+
+// .border {
+// 	height: .2em;
+// 	background-color: $brand_color;
+// }
+
+
+
+// .container {
+// 	padding: 2em;
+// 	text-align: center;
+// 	.frame {
+// 		margin: 0% 30%;
+// 		box-shadow: 0 0px 10px 4px #E5E8E8;
+// 		display: block;
+// 		height: 600px;
+
+// 		.uld-container {
+// 			padding: 1em;
+// 			.switch_btn {
+// 				text-align: right;
+// 				svg	 {
+// 					color: $brand_color;
+// 				}
+// 			}
+
+
+
+// 			///This is for the uploader //////////
+// 			.upload-section {
+// 				.uld-head {
+// 					p {
+// 						margin: 2em;
+// 				    font-family: Times New Roman;
+// 				    font-size: 1.3em;
+// 				    letter-spacing: .1em;
+// 				    color: gray;
+// 					}
+// 				}
+
+// 				.form {
+// 					padding: 2em;
+// 					.input {
+// 						display: inline-block;
+// 						vertical-align: middle;
+// 					}
+
+// 					#list {
+// 						ul {
+// 							padding: 0;
+// 							text-align: left;
+// 							list-style-type: none;
+
+
+// 							li {
+// 								padding: 1em;
+
+// 								.type-in {
+// 									outline: none;
+// 									padding: 1em;
+// 									width: 70%;
+// 								}
+// 							}
+// 						}
+// 					}
+
+// 					#submit-button {
+// 						margin: 0 4em;
+// 						svg {
+// 							color: $brand_color;	
+// 						}
+// 					}
+
+// 					hr {
+// 						color: gainsboro;
+// 						opacity: 0.3;
+// 						margin: 2em 0;
+// 					}
+// 					.social-media {
+// 						text-align: center;
+
+// 						ul {
+// 							list-style-type: none;
+// 							padding: 3em;
+// 							li {
+// 								display: inline;
+// 								padding: 1em;
+// 							}
+// 							.fa-instagram {
+// 								color: brown;
+// 							}
+// 							.fa-twitter {
+// 								color: #0084b4;
+// 							}
+// 							.fa-facebook {
+// 								color: #3b5998;
+// 							}
+// 							.fa-youtube {
+// 								color: #FF0000;
+// 							}
+// 						}
+						
+// 					}
+// 				}
+// 			}
+//     }
+
+
+
+// 			// This is for the main player ///////////////////
+// 		.player-section::-webkit-scrollbar {
+// 			    width: 0;
+// 		} 
+
+
+
+// 		.player-section::-webkit-scrollbar-track {
+// 		    -webkit-box-shadow: inset 0 0 0 rgba(0,0,0,0.3);
+// 		    background-color: #F5F5F5;
+// 		}
+
+// 		.player-section {
+// 			overflow: auto;
+// 			height: 600px;
+// 			box-shadow: 0 0px 10px 4px #E5E8E8;
+
+
+
+			
+
+// 			.artwork {
+// 				.image {
+// 					max-height: 300px;
+// 					overflow: hidden;
+// 					display: inline-block;
+// 					img {
+//     				width: 100%;
+// 					}
+// 				}
+// 			}
+// 			.player {
+// 				padding: 3em 3em 1em 3em;
+// 				text-align: center;
+// 				.track {
+// 					vertical-align: middle;
+// 					.artist-name {
+// 						p {
+// 							font-family: Times New Roman;
+// 					    font-size: 1.7em;
+// 					    letter-spacing: .05em;
+// 					    color: gray;
+// 					    margin: 0;
+// 					    font-weight: 500;
+// 						}
+// 					}
+// 					.song-name {
+// 						p {
+// 							font-family: Times New Roman;
+// 							font-size: 1.1em;
+// 							letter-spacing: .1em;
+// 					    color: gray;
+// 					    font-weight: 100;
+// 					    margin: .7em 0;
+// 					    opacity: 0.8;
+// 						}	
+// 					}
+// 				}
+// 				#shares {
+// 					margin: 0 0 0 41%;
+// 					.love, .soundcloud-act {
+// 					 	display: inline;
+// 					 	padding: 0 .7em;	
+// 					}
+
+// 					.love svg {
+// 						color: #F36B7E;
+// 					}
+
+// 					.soundcloud-act svg {
+// 						color: #ff7700;
+// 					}
+// 				}
+
+// 				progress {
+// 					-webkit-appearance: none;
+// 			    -moz-appearance: none;
+// 			    appearance: none;
+// 			    width: 100%;
+// 			    height: 8px;
+// 			    border: 1px solid #F2F3F4;
+// 				}
+
+
+// 				progress::-webkit-progress-value {
+// 					background-color: #808B96;
+// 				}
+
+// 				progress::-webkit-progress-bar {
+// 					  /* style rules */
+// 					 background-color: #F2F3F4;
+// 					 box-shadow: 0 2px 3px rgba(0,0,0,0.2) inset;
+// 					 border-radius: 4em;
+// 				}
+
+
+
+
+// 				.pause {
+// 					text-align: center;
+// 					padding: 2em;
+// 					color: $brand_color;	
+// 					svg {
+// 						padding: .1em;
+// 					}
+// 				}
+// 			}
+
+
+// 			// line for the next videos 
+
+// 			hr {
+// 				opacity: .4;
+// 			}
+			
+
+// 			.next-songs {
+// 				padding: 2em;
+// 				.next-container {
+// 					p {
+// 						color: gray;
+// 						letter-spacing: .06em;
+// 					}
+// 					.box {
+// 						display: inline-block;
+// 						width: 22%;
+// 						height: 100%;
+// 						margin: .7em .4em;
+// 						box-shadow: 0 0px 10px 4px #E5E8E8;
+// 						overflow-x: hidden;
+// 						overflow-y: hidden;
+// 						.image {
+// 							img {
+// 								height: 100%;
+// 								width: 100%;
+// 							}
+// 						}
+// 						.content {
+// 							p {
+// 								margin: .4em 0;
+// 							}
+// 							p.artist {
+// 								  color: gray;
+// 							    font-size: .9em;
+// 							    opacity: 0.8;
+// 							    letter-spacing: .03em;
+// 							    font-weight: 600;
+// 							}
+							
+// 							p.song {
+// 								font-size: .8em;
+// 						    letter-spacing: .05em;
+// 						    color: gray;
+// 						    opacity: 0.7;
+// 							}
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

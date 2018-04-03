@@ -1,0 +1,19 @@
+.next-songs 
+	.next-container 
+		p Explore New Music
+		- @songs.each do |song| 
+			.box 
+				.image
+					= link_to image_tag("#{song.song_artwork}"), song_path(song)
+				.content 	
+					p.artist = song.song_artist
+					p.song = song.song_name.gsub(/[.\/,&()]/, '').gsub(/[\s\-]+/, ' ')  
+
+
+
+
+
+
+
+
+

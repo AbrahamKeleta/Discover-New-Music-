@@ -1,0 +1,18 @@
+.player-section
+	.artwork 
+		.image 
+			= image_tag("#{@last_song.song_artwork}")
+	.player
+		.track#info 
+			.artist-name
+				p = @last_song.song_artist   
+			.song-name
+				p = @last_song.song_name.gsub(/[.\/,()]/, '').gsub(/[\s\-]+/, ' ')  
+
+		audio id="player" ontimeupdate="udpateProgress()" src="#{@last_song.song_link}"	
+		progress id="seekbar" value='0' max="1"
+		.pause 
+			i.far.fa-play-circle.fa-4x#play
+	hr
+	= render 'landing/next'
+
